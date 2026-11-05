@@ -12,7 +12,7 @@ It isn't a runbook. There's no system-specific procedure here. It's the *reasoni
 
 1. **Scope it.** What exactly is broken, what still works, and how will I know when it's fixed?
 2. **Ask whether I've seen this before.** That answer decides where I start.
-3. **Find out what changed** — or what crossed a line.
+3. **Find out what changed** or what crossed a line.
 4. **Decide:** restore service now, or investigate now?
 5. **Preserve evidence** the fix will destroy — before applying the fix.
 6. **Change one thing at a time.** Back it out if it doesn't work.

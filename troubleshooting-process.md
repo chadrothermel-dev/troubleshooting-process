@@ -6,13 +6,13 @@ A working guide to my process, written down so it can be used, questioned, and i
 
 Most of how I work a problem lives in my head. It came from twenty years of infrastructure work, and it isn't written anywhere. This document is my attempt to make it explicit.
 
-It isn't a runbook. There's no system-specific procedure here. It's the *reasoning* — the order I do things in, the decisions I make along the way, and why. The examples are drawn from infrastructure work because that's my world, but the method applies anywhere. If you work in a different corner of IT, read past the specifics to the decision underneath.
+It isn't a runbook. There's no system-specific procedure here. It's the *reasoning*, the order I do things in, the decisions I make along the way, and why. The examples are drawn from infrastructure work because that's my world, but the method applies anywhere. If you work in a different corner of IT, read past the specifics to the decision underneath.
 
 ## The short version
 
 1. **Scope it.** What exactly is broken, what still works, and how will I know when it's fixed?
 2. **Ask whether I've seen this before.** That answer decides where I start.
-3. **Find out what changed** — or what crossed a line.
+3. **Find out what changed** or what crossed a line.
 4. **Decide:** restore service now, or investigate now?
 5. **Preserve evidence** the fix will destroy — before applying the fix.
 6. **Change one thing at a time.** Back it out if it doesn't work.
@@ -123,7 +123,7 @@ Before I apply a fix, I ask: **what will this destroy?** Reboots clear volatile 
 
 Whatever I know will be overwritten, I collect first. Log bundles, a support bundle, a screenshot of the console error, the current configuration. It costs a couple of minutes and it's the difference between fixing the problem once and fixing it every month.
 
-## 6. One change at a time — and back it out
+## 6. One change at a time and back it out
 
 This is the discipline I'd most want someone to take away from this document, because it's the mistake I see most often.
 

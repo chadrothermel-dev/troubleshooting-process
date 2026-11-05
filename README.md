@@ -6,7 +6,7 @@ A working guide to my process, written down so it can be used, questioned, and i
 
 Most of how I work a problem lives in my head. It came from twenty years of infrastructure work, and it isn't written anywhere. This document is my attempt to make it explicit.
 
-It isn't a runbook. There's no system-specific procedure here. It's the *reasoning* — the order I do things in, the decisions I make along the way, and why. The examples are drawn from infrastructure work because that's my world, but the method applies anywhere. If you work in a different corner of IT, read past the specifics to the decision underneath.
+It isn't a runbook. There's no system-specific procedure here. It's the *reasoning* the order I do things in, the decisions I make along the way, and why. The examples are drawn from infrastructure work because that's my world, but the method applies anywhere. If you work in a different corner of IT, read past the specifics to the decision underneath.
 
 ## The short version
 
